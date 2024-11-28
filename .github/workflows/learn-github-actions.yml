@@ -1,9 +1,6 @@
 ---
 name: PR-pipeline
-on:
-    pull_request:
-        branches:
-            - master
+on: workflow_dispatch
 jobs:
     validate_files:
         runs-on: ubuntu-latest
